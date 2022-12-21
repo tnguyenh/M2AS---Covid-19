@@ -10,4 +10,10 @@ It generates a batch of simulations which determine the number of infections in 
 
 ## contactsIllustration.m
 
-This script generates a figure of contacts in order to illustrate the reduction of infectious contacts when a proportion v of the population is isolated.
+This script generates a figure of contacts in order to illustrate the reduction of infectious contacts when a proportion v of the population is isolated. 
+
+N individuals are created and are randomly assigned a susceptible (blue) or infectious (red) status. Contacts are randomly drawn as edges linking two individuals.
+
+The left figures shows contacts without isolation. Infectious contacts are represented in red color, non-infectious contacts (two susceptible or two infectious) in dotted grey segments.
+
+The right figures show the same graph after isolating some individuals (greyed individuals). Grey dashed edges represent contacts that were infectious without isolation, but that are discarded because of isolation.
